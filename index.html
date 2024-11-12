@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Info Anabul - Berita Kucing, Panduan Kucing, dan Tips Merawat Kucing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Info Anabul adalah situs web berita dan informasi terpercaya tentang kucing. Dapatkan berita terbaru, panduan perawatan, makanan, dan adopsi kucing. Temukan tips melatih kucing dan berbagai jenis kucing di sini.">
+    <meta name="keywords" content="berita kucing, panduan kucing, perawatan kucing, makanan kucing, adopsi kucing, jenis kucing, melatih kucing, Info Anabul">
+    <meta name="author" content="Herdiyan Adam Putra">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="R3f-nlA6ZgnZYw16BuLJTABWyGUtHmpY4AYOn05Cj2A" />
+    <meta property="og:title" content="Info Anabul - Berita Kucing dan Panduan Kucing">
+    <meta property="og:description" content="Info Anabul adalah situs web berita dan informasi terpercaya tentang kucing. Dapatkan berita terbaru, panduan perawatan, makanan, dan adopsi kucing.">
+    <meta property="og:image" content="path-to-image.jpg">
+    <meta property="og:url" content="https://infoanabul.netlify.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="img/48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/64.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+  
+<!-- Topbar Start -->
+<div class="container-fluid">
+    <div class="row align-items-center bg-light px-lg-5">
+        <div class="col-12 col-md-8">
+            <div class="d-flex justify-content-between">
+                <div class="bg-primary text-white text-center py-2" style="width: 100px;">Trending</div>
+                <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>1. Kucing Tidak Disteril Bisa Mengalami Masalah Kesehatan Serius, Ini Alasannya!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>2. Fakta Kucing yang Bisa Menemukan Jalan Pulang dari Jarak Puluhan Kilometer!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>3. Cara Mudah Mengatasi Kutu pada Kucing, Nomor 7 Paling Ampuh!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>4. 5 Vitamin yang Wajib Diberikan Agar Kucing Kamu Tetap Sehat dan Aktif</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>5. 7 Alasan Kucing Mengeluarkan Suara Mendengkur, Nomor 5 Akan Membuatmu Tersenyum!</b></a>
+                    </div>
+                    
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-right d-none d-md-block" style="font-family: 'Monaco', monospace;">
+            <span id="currentDateTime"></span>
+        </div>
+        
+    </div>
+    <div class="row align-items-center py-2 px-lg-5">
+        <div class="col-lg-4">
+            <a href="" class="navbar-brand d-none d-lg-block d-flex align-items-center">
+                <!-- Wrapper untuk flex logo dan teks -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon Kucing -->
+                    <img src="img/cat.png" alt="Cat Icon" style="width: 40px; height: 40px; margin-right: 10px;">
+                    <!-- Teks Logo -->
+                    <h1 class="m-0 display-5 text-uppercase">
+                        <span class="text-primary">Info</span> Anabul
+                    </h1>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+            <!-- <img class="img-fluid" src="img/ads-700x70.jpg" alt=""> -->
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+
+
+
+<!-- Navbar Start -->
+ 
+<div class="container-fluid p-0 mb-3">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 py-lg-0 px-lg-5" style="font-family: 'Garamond', serif; font-size: 19px;">
+        <a href="" class="navbar-brand d-block d-lg-none">
+            <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">News</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link active" style="font-weight: bold;">Beranda</a>
+                <a href="berita.html" class="nav-item nav-link" style="font-weight: bold;">Berita Kucing</a>
+                <a href="games.html" class="nav-item nav-link" style="font-weight: bold;">Games Kucing</a>
+                <div class="nav-item dropdown">
+                    <a href="category.html" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-weight: bold;">Jenis Kucing</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="anggora.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Anggora</a>
+                        <a href="persia.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Persia</a>
+                        <a href="kampung.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Kampung</a>
+                        <a href="siam.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Siamese</a>
+                        <a href="ragdoll.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Ragdoll</a>
+                        <a href="bengal.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Bengal</a>
+                        <a href="sphynx.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Sphynx</a>
+                        <a href="maine.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Maine Coon</a>
+                        <a href="british.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing British Shorthair</a>
+                        <a href="hutan.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Hutan</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-weight: bold;">Panduan Kucing</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="rawat.html" class="dropdown-item" style="font-weight: bold;">Perawatan Kucing</a>
+                        <a href="makanan.html" class="dropdown-item" style="font-weight: bold;">Makanan Kucing</a>
+                        <a href="latih.html" class="dropdown-item" style="font-weight: bold;">Melatih Kucing</a>
+                        <a href="adopsi.html" class="dropdown-item" style="font-weight: bold;">Adopsi Kucing</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link" style="font-weight: bold;">Kontak</a>
+                <a href="privacy.html" class="nav-item nav-link" style="font-weight: bold;">Kebijakan Privasi</a>
+            </div>
+            <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
+                <input type="text" class="form-control" placeholder="Cari...">
+                <div class="input-group-append">
+                    <button class="input-group-text text-secondary"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<!-- Navbar End -->
+
+
+
+    <!-- Top News Slider Start -->
+    <!-- <div class="container-fluid py-3">
+        <div class="container">
+            <div class="owl-carousel owl-carousel-2 carousel-item-3 position-relative">
+                <div class="d-flex">
+                    <img src="img/news-100x100-1.jpg" style="width: 80px; height: 80px; object-fit: cover;">
+                    <div class="d-flex align-items-center bg-light px-3" style="height: 80px;">
+                        <a class="text-secondary font-weight-semi-bold" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img src="img/news-100x100-2.jpg" style="width: 80px; height: 80px; object-fit: cover;">
+                    <div class="d-flex align-items-center bg-light px-3" style="height: 80px;">
+                        <a class="text-secondary font-weight-semi-bold" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img src="img/news-100x100-3.jpg" style="width: 80px; height: 80px; object-fit: cover;">
+                    <div class="d-flex align-items-center bg-light px-3" style="height: 80px;">
+                        <a class="text-secondary font-weight-semi-bold" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <img src="img/news-100x100-4.jpg" style="width: 80px; height: 80px; object-fit: cover;">
+                    <div class="d-flex align-items-center bg-light px-3" style="height: 80px;">
+                        <a class="text-secondary font-weight-semi-bold" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Top News Slider End -->
+
+
+  <!-- Main News Slider Start -->
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="owl-carousel owl-carousel-2 carousel-item-1 position-relative mb-3 mb-lg-0">
+                    <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/cat1.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="">Memilih Kucing</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="">November 08, 2024</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="memilih.html" target="_blank">Panduan Memilih  Kucing yang Tepat</a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/adop.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="">Adopsi Kucing</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="">November 01, 2024</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="adopsi.html" target="_blank">Adopsi Kucing yang Sukses: 10 Tips Memilih Teman Berbulu yang Sesuai
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/cat2.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="">Perawatan Kucing</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="">September 22, 2024</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="rawat.html" target="_blank">Panduan Perawatan Kucing yang Lengkap dan Informatif
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/jinak.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="">Melatih Kucing</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="">September 12, 2024</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="latih.html" target="_blank">10 Cara Efektif Membuat Kucing Cepat Jinak dan Tidak Galak
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative overflow-hidden" style="height: 435px;">
+                        <img class="img-fluid h-100" src="img/makanan.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-1">
+                                <a class="text-white" href="">Makanan Kucing</a>
+                                <span class="px-2 text-white">/</span>
+                                <a class="text-white" href="">April 28, 2024</a>
+                            </div>
+                            <a class="h2 m-0 text-white font-weight-bold" href="makanan.html" target="_blank">15 Rekomendasi Makanan Terbaik Kering dan Basah Kucing yang Kaya Nutrisi
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                    <h3 class="m-0">Panduan Kucing</h3>
+                    <a class="text-secondary font-weight-medium text-decoration-none" href="">Lihat Semua</a>
+                </div>
+                <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                    <img class="img-fluid w-100 h-100" src="img/3.png" style="object-fit: cover;">
+                    <a href="rawat.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        Perawatan Kucing
+                    </a>
+                </div>
+                <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                    <img class="img-fluid w-100 h-100" src="img/4.png" style="object-fit: cover;">
+                    <a href="makanan.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        Makanan Kucing
+                    </a>
+                </div>
+                <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
+                    <img class="img-fluid w-100 h-100" src="img/5.png" style="object-fit: cover;">
+                    <a href="latih.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        Melatih Kucing
+                    </a>
+                </div>
+                <div class="position-relative overflow-hidden" style="height: 80px;">
+                    <img class="img-fluid w-100 h-100" src="img/6.png" style="object-fit: cover;">
+                    <a href="adopsi.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        Adopsi Kucing
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main News Slider End -->
+
+
+
+   <!-- Featured News Slider Start -->
+<!-- <div class="container-fluid py-3">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+            <h3 class="m-0">Fitur</h3>
+            <a class="text-secondary font-weight-medium text-decoration-none" href="">Lihat Semua</a>
+        </div>
+        <div class="owl-carousel owl-carousel-2 carousel-item-4 position-relative">
+            <div class="position-relative overflow-hidden" style="height: 300px;">
+                <img class="img-fluid w-100 h-100" src="img/news-300x300-1.jpg" style="object-fit: cover;">
+                <div class="overlay">
+                    <div class="mb-1" style="font-size: 13px;">
+                        <a class="text-white" href="">Kucing</a>
+                        <span class="px-1 text-white">/</span>
+                        <a class="text-white" href="">1 Maret 2024</a>
+                    </div>
+                    <a class="h4 m-0 text-white" href="">Sanctus amet sed ipsum lorem</a>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden" style="height: 300px;">
+                <img class="img-fluid w-100 h-100" src="img/news-300x300-2.jpg" style="object-fit: cover;">
+                <div class="overlay">
+                    <div class="mb-1" style="font-size: 13px;">
+                        <a class="text-white" href="">Perawatan Kucing</a>
+                        <span class="px-1 text-white">/</span>
+                        <a class="text-white" href="">10 April 2024</a>
+                    </div>
+                    <a class="h4 m-0 text-white" href="">Tips Merawat Kucing di Musim Hujan</a>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden" style="height: 300px;">
+                <img class="img-fluid w-100 h-100" src="img/news-300x300-3.jpg" style="object-fit: cover;">
+                <div class="overlay">
+                    <div class="mb-1" style="font-size: 13px;">
+                        <a class="text-white" href="">Kesehatan Kucing</a>
+                        <span class="px-1 text-white">/</span>
+                        <a class="text-white" href="">15 Juni 2024</a>
+                    </div>
+                    <a class="h4 m-0 text-white" href="">Cara Mengatasi Kucing yang Kehilangan Nafsu Makan</a>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden" style="height: 300px;">
+                <img class="img-fluid w-100 h-100" src="img/news-300x300-4.jpg" style="object-fit: cover;">
+                <div class="overlay">
+                    <div class="mb-1" style="font-size: 13px;">
+                        <a class="text-white" href="">Makanan Kucing</a>
+                        <span class="px-1 text-white">/</span>
+                        <a class="text-white" href="">20 Agustus 2024</a>
+                    </div>
+                    <a class="h4 m-0 text-white" href="">Rekomendasi Makanan Terbaik untuk Kucing</a>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden" style="height: 300px;">
+                <img class="img-fluid w-100 h-100" src="img/news-300x300-5.jpg" style="object-fit: cover;">
+                <div class="overlay">
+                    <div class="mb-1" style="font-size: 13px;">
+                        <a class="text-white" href="">Kucing Peliharaan</a>
+                        <span class="px-1 text-white">/</span>
+                        <a class="text-white" href="">5 November 2024</a>
+                    </div>
+                    <a class="h4 m-0 text-white" href="">Kucing Peliharaan: Manfaat dan Cara Merawatnya</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Featured News Slider End -->
+
+
+  <!-- Category News Slider Start -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 py-3">
+                <div class="bg-light py-2 px-4 mb-3">
+                    <h3 class="m-0">Perawatan Kucing</h3>
+                </div>
+                <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="./img/mandi1.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="mandi.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>November 08, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="mandi.html">10 Tips Melatih Kucing agar Mau Mandi Tanpa Rewel
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="./img/sofa.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="sofa.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>November 05, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="sofa.html">10 Tips Melatih Kucing agar Tidak Menggaruk Sofa dan Perabotan
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="./img/jinak.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="latih.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>November 01, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="latih.html">10 Cara Efektif Membuat Kucing Cepat Jinak dan Tidak Galak
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 py-3">
+                <div class="bg-light py-2 px-4 mb-3">
+                    <h3 class="m-0">Adopsi Kucing</h3>
+                </div>
+                <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="./img/adop.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="adopsi.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>Oktober 07, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="adopsi.html">Adopsi Kucing yang Sukses: 10 Tips Memilih Teman Berbulu yang Sesuai
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/gigit.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="gigit.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>September 25, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="gigit.html">10 Trik Melatih Kucing agar Tidak Agresif dan Suka Menggigit</a>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="./img/tikus.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-2" style="font-size: 13px;">
+                                <a href="tikus.html">Anabul</a>
+                                <span class="px-1">/</span>
+                                <span>Agustus 12, 2024</span>
+                            </div>
+                            <a class="h4 m-0" href="tikus.html">10 Cara Melatih Kucing agar Tidak Membawa Tikus ke Dalam Rumah</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Category News Slider End -->
+
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                                <h3 class="m-0">Popular</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/pet.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="">Games Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>November 8, 2024</span>
+                                    </div>
+                                    <a class="h4" href="games.html">1. Games Pet Trainer Duel</a>
+                                    <p class="m-0">Pet Trainer Duel adalah game yang mengasah keahlianmu dalam melatih kucing untuk menyelesaikan berbagai tantangan. Dari melompati rintangan hingga beradu ketangkasan, kucing peliharaanmu dapat menjadi juara di semua level. Ini adalah pengalaman menghibur bagi anabulmu...
+
+                                        </p>
+                                </div>
+                                
+                            </div>
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="games.html">Games Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>November 6, 2024</span>
+                                    </div>
+                                    <a class="h6 m-0" href="ga">2. Games Push Push Cat</a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/push.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="games.html">Games Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>November 6, 2024</span>
+                                    </div>
+                                    <a class="h4" href="games.html">2. Games Push Push Cat</a>
+                                    <p class="m-0">Push Push Cat adalah permainan teka-teki di mana kamu harus membantu kucing mendorong balok untuk mencapai tujuannya. Game ini menawarkan berbagai level menantang dan grafik imut yang membuat permainan menjadi semakin seru. Cocok untuk semua umur dan pastinya...
+
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="mb-3 pb-3">
+                        <a href=""><img class="img-fluid w-100" src="img/ads-700x70.jpg" alt=""></a>
+                    </div> -->
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
+                                <h3 class="m-0">Kesehatan</h3>
+                                <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/gendut.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="sehat.html">Kesehatan Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>April 15, 2024</span>
+                                    </div>
+                                    <a class="h4" href="sehat.html">Pentingnya Menjaga Kucing Agar Tidak Kelebihan Berat Badan, Yuk Pelajari Cara Menghindarinya!</a>
+                                    <p class="m-0">Menjaga berat badan kucing agar tetap ideal bukan hanya soal penampilan, tetapi juga penting untuk kesehatan mereka. Kucing yang kelebihan berat badan berisiko mengalami berbagai masalah kesehatan, seperti diabetes, penyakit jantung, dan masalah sendi. 
+                                        ...</p>
+                                </div>
+                            </div>
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-5.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="cacingan.html">Kesehatan Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>April 07, 2024</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="position-relative mb-3">
+                                <img class="img-fluid w-100" src="img/cacingan.jpg" style="object-fit: cover;">
+                                <div class="overlay position-relative bg-light">
+                                    <div class="mb-2" style="font-size: 14px;">
+                                        <a href="cacingan.html">Kesehatan Kucing</a>
+                                        <span class="px-1">/</span>
+                                        <span>April 07, 2024</span>
+                                    </div>
+                                    <a class="h4" href="cacingan.html">Apa yang Harus Dilakukan Jika Kucing Mengalami Cacingan? Cari Tahu Solusinya di Sini!</a>
+                                    <p class="m-0">                                Cacingan pada kucing adalah masalah kesehatan yang umum, namun bisa berbahaya jika tidak segera ditangani. Kucing yang terinfeksi cacing dapat mengalami berbagai gejala, seperti diare, muntah, penurunan berat badan, dan perut yang tampak membesar. Untuk itu...
+                                        ...</p>
+                                </div>
+                            </div>
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="d-flex mb-3">
+                                <img src="img/news-100x100-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                    <div class="mb-1" style="font-size: 13px;">
+                                        <a href="">Technology</a>
+                                        <span class="px-1">/</span>
+                                        <span>January 01, 2045</span>
+                                    </div>
+                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 pt-3 pt-lg-0">
+                    <!-- Social Follow Start -->
+                    <!-- <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Follow Us</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #39569E;">
+                                <small class="fab fa-facebook-f mr-2"></small><small>12,345 Fans</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #52AAF4;">
+                                <small class="fab fa-twitter mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #0185AE;">
+                                <small class="fab fa-linkedin-in mr-2"></small><small>12,345 Connects</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #C8359D;">
+                                <small class="fab fa-instagram mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #DC472E;">
+                                <small class="fab fa-youtube mr-2"></small><small>12,345 Subscribers</small>
+                            </a>
+                            <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #1AB7EA;">
+                                <small class="fab fa-vimeo-v mr-2"></small><small>12,345 Followers</small>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- Social Follow End -->
+
+                     <!-- Newsletter Start -->
+<div class="pb-3">
+    <div class="bg-light py-2 px-4 mb-3">
+        <h3 class="m-0">Daftar Newsletter Kami</h3>
+    </div>
+    <div class="bg-light text-center p-4 mb-3">
+        <p>Ikuti terus kabar terbaru tentang perawatan kucing dan tips berguna untuk teman berbulu Anda!</p>
+        <div class="input-group" style="width: 100%;">
+            <input id="emailInput" type="email" class="form-control form-control-lg" placeholder="Masukkan Email Anda">
+            <div class="input-group-append">
+                <button id="subscribeBtn" class="btn btn-primary">Daftar</button>
+            </div>
+        </div>
+        <small>Dapatkan Notifikasi Terbaru terkait info anabul kesayanganmu</small>
+    </div>
+</div>
+<!-- Newsletter End -->
+
+                    <!-- Ads Start -->
+                    <div class="mb-3 pb-3">
+                        <a href=""><img class="img-fluid" src="img/news-500x280-4.jpg" alt=""></a>
+                    </div>
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Trending</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/steril.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="steril.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Oktober 10, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="steril.html">1. Kucing Tidak Disteril Bisa Mengalami Masalah Kesehatan Serius, Ini Alasannya!</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/pulang.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="pulang.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>September 22, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="pulang.html">2. Fakta Kucing yang Bisa Menemukan Jalan Pulang dari Jarak Puluhan Kilometer!
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/kutu.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="kutu.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>September 12, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="kutu.html">3. Cara Mudah Mengatasi Kutu pada Kucing, Nomor 7 Paling Ampuh!
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/vitamin.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="vitamin.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agustus 04, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="vitamin.html">4. 5 Vitamin yang Wajib Diberikan Agar Kucing Kamu Tetap Sehat dan Aktif
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/dengkur.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="dengkur.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Juli 28, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="dengkur.html">5.  7 Alasan Kucing Mengeluarkan Suara Mendengkur, Nomor 5 Akan Membuatmu Tersenyum!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+
+                    <!-- Tags Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Tags</h3>
+                        </div>
+                        <div class="d-flex flex-wrap m-n1">
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Perawatan Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Makanan Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kesehatan Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Peliharaan</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Sehat</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Bahagia</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Mainan Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Tempat Tidur Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Vaksin Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Perawatan Bulu Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kotak Pasir</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">VitaminKucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Tersenyum</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Adopsi Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Jenis Kucing</a>
+                            <a href="" class="btn btn-sm btn-outline-secondary m-1">Melatih Kucing</a>
+
+
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+  <!-- Footer Start -->
+<div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Info</span>Anabul</h1>
+            </a>
+            <p>Menyediakan berita, tips, dan panduan terlengkap seputar dunia kucing untuk para pecinta anabul di seluruh Indonesia.</p>
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Kategori</h4>
+            <div class="d-flex flex-wrap m-n1">
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Berita Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Panduan Perawatan</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Jenis Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kesehatan Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Makanan Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tips Melatih</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Komunitas</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Galeri</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tag Populer</h4>
+            <div class="d-flex flex-wrap m-n1">
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Anggora</a>
+                <a href="persia.html" class="btn btn-sm btn-outline-secondary m-1">Kucing Persia</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Kampung</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tips Perawatan</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Makanan Alami</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Vaksin Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tren Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Komunitas Anabul</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tautan Cepat</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Tentang Kami</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Kontak</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Kebijakan Privasi</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Syarat & Ketentuan</a>
+                <a class="text-secondary" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Hubungi Kami</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-bold" href="#">2024 - Info Anabul </a>. All Rights Reserved. 
+			
+			Designed by <a class="font-weight-bold" href="https://herdiyana256.github.io/porfolio/">Komunitas Kucing Indonesia</a>
+        </p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-dark back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <script>
+        function updateDateTime() {
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const now = new Date().toLocaleDateString('id-ID', options);
+            document.getElementById('currentDateTime').textContent = now;
+        }
+    
+        // Memperbarui setiap detik
+        setInterval(updateDateTime, 1000);
+    </script>
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8753214242742421"
+     crossorigin="anonymous"></script>
+
+     
+     <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "https://infoanabul.netlify.app",
+          "name": "Info Anabul",
+          "description": "Info Anabul adalah situs web berita terpercaya yang menyediakan informasi terbaru seputar dunia kucing. Kami menghadirkan panduan lengkap tentang perawatan kucing, makanan yang tepat untuk kucing, serta tips melatih kucing dengan efektif. Selain itu, kami juga memberikan informasi tentang berbagai jenis kucing, seperti Kucing Anggora, Persia, Siamese, Bengal, Maine Coon, dan banyak lagi. Di Info Anabul, kami juga menawarkan artikel terkait adopsi kucing, perkembangan dunia kucing, dan segala hal yang perlu Anda ketahui untuk merawat anabul (anak bulu) kesayangan Anda dengan baik. Temukan berita terkini, tips, dan panduan praktis untuk menjaga kesehatan dan kebahagiaan kucing Anda."
+        }
+        </script>
+        
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    
+</body>
+
+</html>

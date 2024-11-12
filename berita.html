@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Info Anabul - Berita Kucing</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+     <!-- Favicon -->
+     <link rel="icon" type="image/png" sizes="32x32" href="img/32.png">
+     <link rel="icon" type="image/png" sizes="48x48" href="img/48.png">
+     <link rel="icon" type="image/png" sizes="64x64" href="img/64.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+
+<body>
+   <!-- Topbar Start -->
+<div class="container-fluid">
+    <div class="row align-items-center bg-light px-lg-5">
+        <div class="col-12 col-md-8">
+            <div class="d-flex justify-content-between">
+                <div class="bg-primary text-white text-center py-2" style="width: 100px;">Trending</div>
+                <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>1. Kucing Tidak Disteril Bisa Mengalami Masalah Kesehatan Serius, Ini Alasannya!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>2. Fakta Kucing yang Bisa Menemukan Jalan Pulang dari Jarak Puluhan Kilometer!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>3. Cara Mudah Mengatasi Kutu pada Kucing, Nomor 7 Paling Ampuh!</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>4. 5 Vitamin yang Wajib Diberikan Agar Kucing Kamu Tetap Sehat dan Aktif</b></a>
+                    </div>
+                    <div class="text-truncate" style="font-family: 'Times New Roman', Times, serif;">
+                        <a class="text-secondary" href=""><b>5. 7 Alasan Kucing Mengeluarkan Suara Mendengkur, Nomor 5 Akan Membuatmu Tersenyum!</b></a>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 text-right d-none d-md-block" style="font-family: 'Monaco', monospace;">
+            <span id="currentDateTime"></span>
+        </div>
+    </div>
+    <div class="row align-items-center py-2 px-lg-5">
+        <div class="col-lg-4">
+            <a href="" class="navbar-brand d-none d-lg-block d-flex align-items-center">
+                <!-- Wrapper untuk flex logo dan teks -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon Kucing -->
+                    <img src="img/cat.png" alt="Cat Icon" style="width: 40px; height: 40px; margin-right: 10px;">
+                    <!-- Teks Logo -->
+                    <h1 class="m-0 display-5 text-uppercase">
+                        <span class="text-primary">Info</span> Anabul
+                    </h1>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+            <!-- <img class="img-fluid" src="img/ads-700x70.jpg" alt=""> -->
+        </div>
+    </div>
+</div>
+
+
+     <!-- Navbar Start -->
+ 
+<div class="container-fluid p-0 mb-3">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 py-lg-0 px-lg-5" style="font-family: 'Garamond', serif; font-size: 19px;">
+        <a href="" class="navbar-brand d-block d-lg-none">
+            <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">News</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav mr-auto py-0">
+                <a href="index.html" class="nav-item nav-link active" style="font-weight: bold;">Beranda</a>
+                <a href="berita.html" class="nav-item nav-link" style="font-weight: bold;">Berita Kucing</a>
+                <a href="games.html" class="nav-item nav-link" style="font-weight: bold;">Games Kucing</a>
+                <div class="nav-item dropdown">
+                    <a href="category.html" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-weight: bold;">Jenis Kucing</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="anggora.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Anggora</a>
+                        <a href="persia.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Persia</a>
+                        <a href="kampung.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Kampung</a>
+                        <a href="siam.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Siamese</a>
+                        <a href="ragdoll.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Ragdoll</a>
+                        <a href="bengal.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Bengal</a>
+                        <a href="sphynx.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Sphynx</a>
+                        <a href="maine.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Maine Coon</a>
+                        <a href="british.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing British Shorthair</a>
+                        <a href="hutan.html" target="_blank" class="dropdown-item" style="font-weight: bold;">Kucing Hutan</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-weight: bold;">Panduan Kucing</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="rawat.html" class="dropdown-item" style="font-weight: bold;">Perawatan Kucing</a>
+                        <a href="makanan.html" class="dropdown-item" style="font-weight: bold;">Makanan Kucing</a>
+                        <a href="latih.html" class="dropdown-item" style="font-weight: bold;">Melatih Kucing</a>
+                        <a href="adopsi.html" class="dropdown-item" style="font-weight: bold;">Adopsi Kucing</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link" style="font-weight: bold;">Kontak</a>
+                <a href="privacy.html" class="nav-item nav-link" style="font-weight: bold;">Kebijakan Privasi</a>
+            </div>
+            <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
+                <input type="text" class="form-control" placeholder="Cari...">
+                <div class="input-group-append">
+                    <button class="input-group-text text-secondary"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<!-- Navbar End -->
+
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <nav class="breadcrumb bg-transparent m-0 p-0">
+                <a class="breadcrumb-item" href="#">Beranda</a>
+                <span class="breadcrumb-item active">Berita Kucing</span>
+            </nav>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+<!-- News With Sidebar Start -->
+<div class="container-fluid py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- News Detail Start -->
+                <div class="position-relative mb-3">
+                    <img class="img-fluid w-100" src="img/wal.jpg" style="object-fit: cover;">
+                    <div class="overlay position-relative bg-light">
+                        <div class="mb-3">
+                            <a href="berita.html">Berita Kucing</a>
+                            <span class="px-1">/</span>
+                            <span id="currentDate"></span>
+                        </div>
+                        <div>
+                            <h3 class="mb-3" style="font-family: 'Arial', sans-serif; color: #444;">Kucing sebagai Teman Hidup: Menggali Manfaat Psikologis dan Kesehatan dari Hubungan dengan Si Menggemaskan</h3>
+<p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #555;">
+    Memelihara kucing tidak hanya menyenangkan, tetapi juga memiliki banyak manfaat bagi kesehatan mental dan fisik. 
+    Berikut ini adalah beberapa dampak positif dari hubungan kita dengan kucing yang bisa memberikan kebahagiaan 
+    dan kesehatan:
+</p>
+<p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #555;">
+    Penelitian menunjukkan bahwa memiliki kucing sebagai hewan peliharaan dapat mengurangi tingkat stres dan kecemasan. Dengan berinteraksi dengan kucing, seperti membelai bulunya atau mendengarkan suara dengkuran mereka, seseorang bisa merasakan penurunan hormon kortisol yang berhubungan dengan stres. Selain itu, kontak fisik yang dilakukan saat memeluk atau menggendong kucing dapat meningkatkan produksi hormon oksitosin, yang dikenal sebagai hormon "cinta", yang membantu menciptakan rasa bahagia dan relaksasi. Aktivitas ini juga dapat menurunkan tekanan darah dan detak jantung, memberi manfaat bagi kesehatan jantung pengadopsi.
+</p>
+<p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #555;">
+    Selain manfaat psikologis, kucing juga membantu meningkatkan kesejahteraan fisik pemiliknya. Studi menunjukkan bahwa orang yang memelihara kucing memiliki tingkat stres yang lebih rendah dan lebih mampu mengatasi situasi yang menantang secara emosional. Adopsi kucing juga berperan dalam meningkatkan kegiatan fisik, terutama untuk orang-orang yang terlibat dalam aktivitas bermain dengan kucing, seperti melempar bola atau mengikuti kucing berkeliling rumah. Ini membantu menjaga keseimbangan hidup yang lebih sehat, serta mendukung ketahanan emosional dan sosial yang lebih kuat dalam menghadapi tantangan sehari-hari.
+</p>
+
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">1. Mengurangi Stres dan Kecemasan</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Interaksi dengan kucing, seperti membelai bulunya atau mendengar dengkurannya, terbukti menurunkan hormon stres 
+                                kortisol. Penelitian dari University of Missouri-Columbia menunjukkan bahwa interaksi ini meningkatkan hormon oksitosin yang membantu mengurangi stres dan meningkatkan rasa bahagia.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">2. Membantu Mengatasi Kesepian dan Depresi</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Kehadiran kucing di rumah dapat mengurangi rasa kesepian dan bahkan membantu mengurangi gejala depresi. Menurut penelitian dari Mental Health Foundation, hewan peliharaan memberikan dukungan emosional yang kuat, terutama bagi mereka yang tinggal sendiri atau sedang menghadapi depresi.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">3. Menurunkan Risiko Penyakit Jantung</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Memelihara kucing ternyata berpengaruh positif pada kesehatan fisik, khususnya pada kesehatan jantung. Menurut American Heart Association, pemilik kucing cenderung memiliki tekanan darah yang lebih rendah dan risiko penyakit jantung yang lebih rendah.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">4. Kucing dalam Terapi Pendamping (Animal-Assisted Therapy)</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Terapi dengan kucing telah diterima sebagai bagian dari perawatan kesehatan, terutama untuk orang tua dan anak-anak dengan kebutuhan khusus. Studi dalam *Frontiers in Psychology* menunjukkan bahwa terapi ini efektif mengurangi kecemasan, terutama pada anak dengan autisme dan lansia.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">5. Meningkatkan Kehidupan Sosial</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Memiliki kucing juga dapat membuka peluang sosial baru, misalnya dengan bergabung dalam komunitas pecinta kucing. Berdasarkan survei dari Human Animal Bond Research Institute (HABRI), 87% responden merasa hewan peliharaan meningkatkan hubungan sosial dan mengurangi rasa kesepian.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">6. Membantu Mengatasi Gangguan Tidur</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Mendengarkan dengkuran kucing bisa memberikan efek menenangkan yang membantu orang tidur lebih baik. Menurut beberapa laporan pengguna, suara dengkuran kucing memberikan rasa nyaman yang meningkatkan kualitas tidur.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">7. Membantu Anak-Anak Belajar Tanggung Jawab</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Anak-anak yang tumbuh bersama kucing cenderung belajar tentang tanggung jawab sejak dini. Mengurus kucing dapat membantu anak memahami pentingnya memberi makan, merawat, dan menyayangi hewan peliharaan.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">8. Mengembangkan Empati</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Menurut penelitian di bidang psikologi hewan, merawat kucing dapat meningkatkan empati, terutama pada anak-anak, karena mereka belajar memahami dan menghargai kebutuhan makhluk lain.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">9. Meningkatkan Kreativitas</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Studi menunjukkan bahwa waktu yang dihabiskan bersama kucing, terutama saat bermain, dapat merangsang kreativitas, karena pemilik sering kali berimajinasi dalam memahami pola tingkah laku kucing.
+                            </p>
+
+                            <h4 style="font-family: 'Arial', sans-serif; color: #333;">10. Mengajarkan Kehidupan Seimbang</h4>
+                            <p style="font-family: 'Georgia', serif; color: #666;">
+                                Kehidupan bersama kucing bisa mengingatkan kita untuk selalu seimbang dalam mengatur waktu antara pekerjaan dan relaksasi, karena kehadiran mereka sering memaksa pemilik untuk berhenti sejenak dan menikmati waktu bersama.
+                            </p>
+
+                            <p style="font-family: 'Georgia', serif; font-size: 1.1em; color: #555;">
+                                Dengan menjaga dan merawat kucing, Anda tidak hanya memperkaya hidup mereka, tetapi juga memperoleh manfaat besar bagi kesehatan Anda sendiri. Kucing adalah lebih dari sekadar hewan peliharaan, mereka adalah teman hidup yang 
+                                setia dan sumber kebahagiaan.
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <a href="berita.html" style="color: blue; font-style: italic;" target="_blank">Kucing Tidak Disteril Bisa Mengalami Masalah Kesehatan Serius, Ini Alasannya!</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- News Detail End -->
+           
+
+<!-- Comment List Start -->
+<div class="bg-light mb-3" style="padding: 30px;">
+    <h3 class="mb-4"> Komentar : <span id="commentCount">10</span></h3>
+    
+    <!-- Komentar yang sudah ada -->
+    <div class="media mb-4" id="comment-1">
+        <img src="img/user11.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Herdiyan Adam</a> <small><i>15 Mar 2024</i></small></h6>
+            <p>Saya sangat setuju dengan artikel ini! Banyak sekali manfaat kesehatan yang saya rasakan setelah memelihara kucing, terutama dalam mengurangi stres. Terima kasih atas informasi yang sangat berguna ini!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-1')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-1" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-1" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-1" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-1')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-1"></div>
+        </div>
+    </div>
+    
+    <div class="media mb-4" id="comment-2">
+        <img src="img/user2.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Andi Andri</a> <small><i>10 Jul 2024</i></small></h6>
+            <p>Artikel ini sangat informatif dan menambah wawasan saya tentang manfaat memelihara kucing untuk kesehatan fisik dan mental. Ternyata, memiliki kucing juga dapat membantu mengurangi risiko penyakit jantung. Terima kasih atas artikelnya!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-2')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-2" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-2" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-2" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-2')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-2"></div>
+        </div>
+    </div>
+    
+    <div class="media mb-4" id="comment-3">
+        <img src="img/user1.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Kiko Jeriko</a> <small><i>01 Okt 2024</i></small></h6>
+            <p>Postingannya sangat menarik! Saya belajar banyak tentang cara merawat kucing dengan benar. Semoga lebih banyak artikel seperti ini untuk kami para pecinta kucing!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-3')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-3" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-3" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-3" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-3')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-3"></div>
+        </div>
+    </div>
+
+    <!-- Komentar tambahan -->
+    <div class="media mb-4" id="comment-4">
+        <img src="img/user4.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Liana Nurani</a> <small><i>12 Okt 2024</i></small></h6>
+            <p>Artikel yang sangat bermanfaat! Saya baru mulai memelihara kucing dan banyak belajar dari artikel ini tentang cara merawat kucing dengan baik.</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-4')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-4" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-4" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-4" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-4')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-4"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-5">
+        <img src="img/user5.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Rika Pratiwi</a> <small><i>20 Okt 2024</i></small></h6>
+            <p>Terima kasih atas artikel ini! Saya sangat senang memelihara kucing dan artikel ini memberikan banyak informasi penting tentang perawatan kucing yang benar.</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-5')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-5" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-5" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-5" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-5')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-5"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-6">
+        <img src="img/user6.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Dian Anggraini</a> <small><i>05 Nov 2024</i></small></h6>
+            <p>Saya sangat menikmati artikel ini! Terutama tentang cara kucing bisa mengurangi tingkat kecemasan dan depresi. Artikel ini sangat membuka wawasan saya!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-6')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-6" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-6" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-6" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-6')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-6"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-7">
+        <img src="img/user7.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Fadila Nabila</a> <small><i>10 Nov 2024</i></small></h6>
+            <p>Artikel yang sangat informatif, sangat membantu saya dalam memahami lebih dalam tentang manfaat memelihara kucing. Terima kasih!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-7')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-7" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-7" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-7" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-7')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-7"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-8">
+        <img src="img/user8.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Budi Santoso</a> <small><i>12 Nov 2024</i></small></h6>
+            <p>Saya baru tahu bahwa memelihara kucing bisa meningkatkan tingkat kebahagiaan dan mengurangi stres. Artikel ini sangat bermanfaat!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-8')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-8" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-8" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-8" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-8')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-8"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-9">
+        <img src="img/user9.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Maya Susanti</a> <small><i>15 Nov 2024</i></small></h6>
+            <p>Artikel yang sangat mengedukasi tentang manfaat memelihara kucing! Setelah membaca ini, saya jadi lebih tertarik untuk memelihara kucing.</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-9')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-9" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-9" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-9" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-9')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-9"></div>
+        </div>
+    </div>
+
+    <div class="media mb-4" id="comment-10">
+        <img src="img/user10.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+        <div class="media-body">
+            <h6><a href="">Ahmad Fadly</a> <small><i>18 Nov 2024</i></small></h6>
+            <p>Informasi yang sangat bermanfaat! Saya baru memutuskan untuk memelihara kucing dan artikel ini memberikan banyak tips yang saya butuhkan. Terima kasih!</p>
+            <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm('comment-10')">Balas</button>
+            <div class="reply-form" id="reply-form-comment-10" style="display: none; margin-top: 15px;">
+                <input type="text" class="form-control" id="name-reply-10" placeholder="Nama" required>
+                <textarea class="form-control" id="message-reply-10" placeholder="Pesan" required></textarea>
+                <button class="btn btn-primary mt-2" onclick="addReply('comment-10')">Kirim Balasan</button>
+            </div>
+            <div class="replies" id="replies-comment-10"></div>
+        </div>
+    </div>
+
+</div>
+<!-- Comment List End -->
+
+
+
+<!-- Comment Form Start -->
+<div class="bg-light mb-3" style="padding: 30px;">
+    <h3 class="mb-4">Tinggalkan komentar</h3>
+    <form id="commentForm">
+        <div class="form-group">
+            <label for="name">Nama *</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="website">Subjek</label>
+            <input type="text" class="form-control" id="subjek">
+        </div>
+        <div class="form-group">
+            <label for="message">Pesan *</label>
+            <textarea id="message" cols="30" rows="5" class="form-control" required></textarea>
+        </div>
+        <div class="form-group mb-0">
+            <input type="submit" value="Tinggalkan komentar" class="btn btn-primary font-weight-semi-bold py-2 px-3">
+        </div>
+    </form>
+</div>
+<!-- Comment Form End -->
+                </div>
+
+                <div class="col-lg-4 pt-3 pt-lg-0">
+                    <!-- Ikuti Kami Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Ikuti Kami</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="https://facebook.com/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #39569E;">
+                                <small class="fab fa-facebook-f mr-2"></small><small>12,345 Penggemar</small>
+                            </a>
+                            <a href="https://twitter.com/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #52AAF4;">
+                                <small class="fab fa-twitter mr-2"></small><small>12,345 Pengikut</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="https://linkedin.com/company/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #0185AE;">
+                                <small class="fab fa-linkedin-in mr-2"></small><small>1,234 Koneksi</small>
+                            </a>
+                            <a href="https://instagram.com/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #C8359D;">
+                                <small class="fab fa-instagram mr-2"></small><small>45,678 Pengikut</small>
+                            </a>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <a href="https://youtube.com/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #DC472E;">
+                                <small class="fab fa-youtube mr-2"></small><small>5,678 Pelanggan</small>
+                            </a>
+                            <a href="https://vimeo.com/AnabulCare" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #1AB7EA;">
+                                <small class="fab fa-vimeo-v mr-2"></small><small>3,456 Pengikut</small>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Ikuti Kami End -->
+                
+                    <!-- Newsletter Start -->
+<div class="pb-3">
+    <div class="bg-light py-2 px-4 mb-3">
+        <h3 class="m-0">Daftar Newsletter Kami</h3>
+    </div>
+    <div class="bg-light text-center p-4 mb-3">
+        <p>Ikuti terus kabar terbaru tentang perawatan kucing dan tips berguna untuk teman berbulu Anda!</p>
+        <div class="input-group" style="width: 100%;">
+            <input id="emailInput" type="email" class="form-control form-control-lg" placeholder="Masukkan Email Anda">
+            <div class="input-group-append">
+                <button id="subscribeBtn" class="btn btn-primary">Daftar</button>
+            </div>
+        </div>
+        <small>Dapatkan Notifikasi Terbaru terkait info anabul kesayanganmu</small>
+    </div>
+</div>
+<!-- Newsletter End -->
+                
+                   <!-- Ads Start -->
+                   <div class="mb-3 pb-3">
+                    <a href=""><img class="img-fluid" src="img/news-500x280-4.jpg" alt=""></a>
+                </div>
+                <!-- Ads End -->
+                
+                    <!-- Popular News Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Trending</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/steril.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="steril.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Oktober 10, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="steril.html">1. Kucing Tidak Disteril Bisa Mengalami Masalah Kesehatan Serius, Ini Alasannya!</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/pulang.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="pulang.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>September 22, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="pulang.html">2. Fakta Kucing yang Bisa Menemukan Jalan Pulang dari Jarak Puluhan Kilometer!
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/kutu.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="kutu.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>September 12, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="kutu.html">3. Cara Mudah Mengatasi Kutu pada Kucing, Nomor 7 Paling Ampuh!
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/vitamin.png" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="vitamin.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agustus 04, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="vitamin.html">4. 5 Vitamin yang Wajib Diberikan Agar Kucing Kamu Tetap Sehat dan Aktif
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/dengkur.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="dengkur.html">Berita Kucing</a>
+                                    <span class="px-1">/</span>
+                                    <span>Juli 28, 2024</span>
+                                </div>
+                                <a class="h6 m-0" href="dengkur.html">5.  7 Alasan Kucing Mengeluarkan Suara Mendengkur, Nomor 5 Akan Membuatmu Tersenyum!
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+                
+                   <!-- Tag Populer Start -->
+<div class="pb-3">
+    <div class="bg-light py-2 px-4 mb-3">
+        <h3 class="m-0">Tag Populer</h3>
+    </div>
+    <div class="d-flex flex-wrap m-n1">
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Pelatihan Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Makanan Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Adopsi</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Perawatan Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kesehatan Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Perawatan Kuku Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kucing Persia</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kucing Anggora</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Perawatan Bulu Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Makanan Organik Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kucing Liar</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Tanda Kucing Sehat</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Grooming Kucing</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary m-1">Kucing Peliharaan</a>
+    </div>
+</div>
+<!-- Tag Populer End -->
+
+                
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+<div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+    <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Info</span>Anabul</h1>
+            </a>
+            <p>Menyediakan berita, tips, dan panduan terlengkap seputar dunia kucing untuk para pecinta anabul di seluruh Indonesia.</p>
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Kategori</h4>
+            <div class="d-flex flex-wrap m-n1">
+                <a href="berita.html" class="btn btn-sm btn-outline-secondary m-1">Berita Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Panduan Perawatan</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Jenis Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kesehatan Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Makanan Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tips Melatih</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Komunitas</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Galeri</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tag Populer</h4>
+            <div class="d-flex flex-wrap m-n1">
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Anggora</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Persia</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Kucing Kampung</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tips Perawatan</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Makanan Alami</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Vaksin Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Tren Kucing</a>
+                <a href="" class="btn btn-sm btn-outline-secondary m-1">Komunitas Anabul</a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="font-weight-bold mb-4">Tautan Cepat</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Tentang Kami</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Kontak</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Kebijakan Privasi</a>
+                <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Syarat & Ketentuan</a>
+                <a class="text-secondary" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Hubungi Kami</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-bold" href="#">2024 - Info Anabul </a>. All Rights Reserved. 
+			
+			Designed by <a class="font-weight-bold" href="https://herdiyana256.github.io/porfolio/">Komunitas Kucing Indonesia</a>
+        </p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-dark back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <script>
+        function updateDateTime() {
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            const now = new Date().toLocaleDateString('id-ID', options);
+            document.getElementById('currentDateTime').textContent = now;
+        }
+    
+        // Memperbarui setiap detik
+        setInterval(updateDateTime, 1000);
+    </script>
+    
+
+    <script>
+        // Set the current date in the format "Month DD, YYYY"
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', {
+            month: 'long',
+            day: 'numeric',
+            year: 'numeric'
+        });
+        </script>
+
+
+
+<!-- JavaScript untuk menangani pengiriman komentar dan pembaruan jumlah komentar -->
+<script>
+    // Fungsi untuk menambah komentar baru
+    document.getElementById('commentForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        // Ambil nilai dari form komentar
+        const name = document.getElementById('name').value;
+        const message = document.getElementById('message').value;
+        
+        // Ambil tanggal saat ini dalam format yang mudah dibaca
+        const currentDate = new Date().toLocaleDateString('id-ID', {
+            day: '2-digit', month: 'short', year: 'numeric'
+        });
+
+        // Buat elemen komentar baru
+        const newComment = document.createElement('div');
+        newComment.className = 'media mb-4';
+        newComment.innerHTML = `
+            <img src="img/user2.png" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+            <div class="media-body">
+                <h6><a href="">${name}</a> <small><i>${currentDate}</i></small></h6>
+                <p>${message}</p>
+                <button class="btn btn-sm btn-outline-secondary" onclick="toggleReplyForm()">Balas</button>
+                <div class="replies"></div> <!-- Tempat balasan untuk komentar baru -->
+            </div>
+        `;
+
+        // Tambahkan komentar baru ke daftar komentar
+        document.querySelector('.bg-light.mb-3').appendChild(newComment);
+        
+        // Update jumlah komentar
+        updateCommentCount();
+
+        // Kosongkan form setelah komentar dikirim
+        document.getElementById('commentForm').reset();
+    });
+
+    // Fungsi untuk mengupdate jumlah komentar
+    function updateCommentCount() {
+        const commentCount = document.querySelectorAll('.media').length;
+        document.getElementById('commentCount').textContent = commentCount;
+    }
+
+    // Menampilkan form balasan
+    function toggleReplyForm(commentId) {
+        const replyForm = document.getElementById('reply-form-' + commentId);
+        replyForm.style.display = (replyForm.style.display === 'none' || replyForm.style.display === '') ? 'block' : 'none';
+    }
+
+    // Menambahkan balasan
+    function addReply(commentId) {
+        const name = document.getElementById('name-reply-' + commentId).value;
+        const message = document.getElementById('message-reply-' + commentId).value;
+        const currentDate = new Date().toLocaleDateString('id-ID', {
+            day: '2-digit', month: 'short', year: 'numeric'
+        });
+
+        const replyContainer = document.getElementById('replies-' + commentId);
+
+        const newReply = document.createElement('div');
+        newReply.className = 'media mb-4';
+        newReply.innerHTML = `
+            <img src="img/user.jpg" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+            <div class="media-body">
+                <h6><a href="">${name}</a> <small><i>${currentDate}</i></small></h6>
+                <p>${message}</p>
+            </div>
+        `;
+
+        replyContainer.appendChild(newReply);
+
+        // Kosongkan form balasan
+        document.getElementById('name-reply-' + commentId).value = '';
+        document.getElementById('message-reply-' + commentId).value = '';
+    }
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+// Logika untuk menangani form dan menampilkan notifikasi
+document.getElementById('subscribeBtn').addEventListener('click', function() {
+    var email = document.getElementById('emailInput').value;
+
+    // Periksa apakah email tidak kosong dan valid
+    if (email && validateEmail(email)) {
+        // Tampilkan notifikasi berhasil menggunakan SweetAlert2
+        Swal.fire({
+            title: 'Berhasil!',
+            text: 'Anda telah berlangganan konten info Anabul!',
+            icon: 'success',
+            confirmButtonText: 'Terima Kasih'
+        });
+
+        // Kosongkan input email setelah langganan berhasil
+        document.getElementById('emailInput').value = '';
+    } else {
+        // Tampilkan notifikasi error jika email tidak valid
+        Swal.fire({
+            title: 'Oops!',
+            text: 'Silakan masukkan email yang valid.',
+            icon: 'error',
+            confirmButtonText: 'Coba Lagi'
+        });
+    }
+});
+
+// Fungsi untuk validasi format email
+function validateEmail(email) {
+    var re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    return re.test(email);
+}
+</script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
